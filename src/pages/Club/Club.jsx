@@ -12,7 +12,7 @@ import Navbar from '../../components/Navbar';
 export const Club = () => {
     return (
         <div className='club'>
-            <div className='navbarToSticky'><Navbar /></div>
+            {/* <div className='navbarToSticky'><Navbar /></div> */}
             <ClubHero />
             <ClubAbout />
             <ClubPrice />

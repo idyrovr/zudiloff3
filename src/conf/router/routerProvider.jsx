@@ -10,7 +10,7 @@ export const RouterProvider = () => {
     return (
         <div className='routerprovider'>
                 
-            
+                <div className='navbarToSticky'><Navbar /></div>
             <Suspense fallback={<div> Loading . . . </div>} />
 
             <Routes>

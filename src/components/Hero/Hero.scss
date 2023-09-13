@@ -354,7 +354,24 @@
             width: 90%;
         }
 
-       
+       &__title {
+        font-size: 37px;
+       }
+       &__desc {
+        font-size: 16px;
+       }
+       &__about {
+        padding: 0 10px;
+       }
+
+       & .about {
+        &__title {
+            font-size: 20px;
+        }
+        &__desc {
+            font-size: 13px;
+        }
+       }
     }
 
    

@@ -17,7 +17,7 @@ export const Home = () => {
  
   return (
     <div className='home'>
-      <div className='navbarToSticky'><Navbar /></div>
+      {/* <div className='navbarToSticky'><Navbar /></div> */}
       <Hero></Hero>
       <Consultation ></Consultation>
       <Questions></Questions>

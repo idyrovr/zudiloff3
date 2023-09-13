@@ -15,25 +15,31 @@ export const Navbar = () => {
     const handleClickOutside = (e) => {
 
         if (active) {
+            console.log("says active")
             if (!refOne.current.contains(e.target)) {
                 console.log(refOne.current)
                 console.log("hello")
                 setActive(false)
             }
-        }
+        } else console.log("not active")
 
     }
 
-    const scrollHandler = (elemRef) => {
-        window.scrollTo({top: elemRef.current.offsetTop, behavior: "smooth"})
-        console.log(elemRef);
+    const clickFurther = () => {
+        
     }
+    // const scrollHandler = (elemRef) => {
+    //     window.scrollTo({top: elemRef.current.offsetTop, behavior: "smooth"})
+    //     console.log(elemRef);
+    // }
 
     useEffect(() => {
         document.addEventListener("click", handleClickOutside)
+        console.log("Useffect")
 
         return (() => {
             document.addEventListener('click', handleClickOutside)
+            console.log("Useffect2")
         })
     })
     return (
@@ -81,10 +87,10 @@ export const Navbar = () => {
                 <div className='burger__menu'>
                     <nav className="burger__nav d-flex flex-column align-center justify-between">
 
-                        <NavLink onClick={() => { setActive(prev => !prev) }} className="header__link" to='/'>О себе</NavLink>
+                        <NavLink onClick={() => { setActive(prev => !prev); console.log("clicked") }} className="header__link" to='/'>О себе</NavLink>
                         <NavLink onClick={() => { setActive(prev => !prev) }} className="header__link" to='/'>Консультации</NavLink>
-                        <NavLink onClick={() => { setActive(prev => !prev) }} className="header__link" to=''>Обучение</NavLink>
-                        <NavLink onClick={() => { setActive(prev => !prev) }} className="header__link" to=''>Консультации</NavLink>
+                        <NavLink onClick={() => { setActive(prev => !prev) }} className="header__link" to='/'>Обучение</NavLink>
+                        <NavLink onClick={() => { setActive(prev => !prev) }} className="header__link" to='/'>Консультации</NavLink>
                         <NavLink onClick={() => { setActive(prev => !prev) }} className="header__link" to='/club'><button className='header__btn'>Закрытый Клуб</button></NavLink>
                     </nav>
                 </div>}

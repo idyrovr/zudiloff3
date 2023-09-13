@@ -36,11 +36,15 @@
 
     &__rowDesc {
         margin-bottom: 20px;
+        & svg {
+            width: 38px;
+            margin-right: 10px;
+        }
     }
 
     &__desc {
         max-width: 379px;
-        margin-left: 10px;
+       
         color: #FFF;
         font-family: 'Inter', sans-serif;
         font-size: 16px;
@@ -72,5 +76,42 @@
 @media (max-width: 500px) {
     .earnp2p {
         padding-bottom: 150px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .earnp2p {
+        &__part {
+            padding: 15px 15px;
+        }
+        &__desc {
+            max-width: 260px;
+        }
+        &__rowDesc {
+         
+            & svg {
+              
+            
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .earnp2p {
+        &__part {
+            padding: 10px 5px;
+        }
+        &__desc {
+            max-width: 200px;
+        }
+        &__rowDesc {
+         
+            & svg {
+              margin-right: 5px;
+            
+            }
+        }
     }
 }
