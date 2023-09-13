@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zudiloff3/static/css/main.e4f8d50a.css",
-    "main.js": "/zudiloff3/static/js/main.3063ecf9.js",
+    "main.js": "/zudiloff3/static/js/main.9fd1fb98.js",
     "static/media/questions__leftElipse.png": "/zudiloff3/static/media/questions__leftElipse.5fe0d7a504a0af137b5a.png",
     "static/media/Inter-Regular.svg": "/zudiloff3/static/media/Inter-Regular.3fd9727c51f527fe32aa.svg",
     "static/media/Montserrat-SemiBold.svg": "/zudiloff3/static/media/Montserrat-SemiBold.71683c6b7d39dc2b61a9.svg",
@@ -103,10 +103,10 @@
     "static/media/RussoOne-Regular.woff2": "/zudiloff3/static/media/RussoOne-Regular.e6300f10fda8613601f6.woff2",
     "index.html": "/zudiloff3/index.html",
     "main.e4f8d50a.css.map": "/zudiloff3/static/css/main.e4f8d50a.css.map",
-    "main.3063ecf9.js.map": "/zudiloff3/static/js/main.3063ecf9.js.map"
+    "main.9fd1fb98.js.map": "/zudiloff3/static/js/main.9fd1fb98.js.map"
   },
   "entrypoints": [
     "static/css/main.e4f8d50a.css",
-    "static/js/main.3063ecf9.js"
+    "static/js/main.9fd1fb98.js"
   ]
 }
