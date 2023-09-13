@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zudiloff3/static/css/main.9b286d4e.css",
-    "main.js": "/zudiloff3/static/js/main.3063ecf9.js",
+    "main.css": "/zudiloff3/static/css/main.dd89af85.css",
+    "main.js": "/zudiloff3/static/js/main.b2580b8a.js",
     "static/media/questions__leftElipse.png": "/zudiloff3/static/media/questions__leftElipse.5fe0d7a504a0af137b5a.png",
     "static/media/Inter-Regular.svg": "/zudiloff3/static/media/Inter-Regular.3fd9727c51f527fe32aa.svg",
     "static/media/Montserrat-SemiBold.svg": "/zudiloff3/static/media/Montserrat-SemiBold.71683c6b7d39dc2b61a9.svg",
@@ -102,11 +102,11 @@
     "static/media/RussoOne-Regular.woff": "/zudiloff3/static/media/RussoOne-Regular.7eb57abeb22a44cdf7a7.woff",
     "static/media/RussoOne-Regular.woff2": "/zudiloff3/static/media/RussoOne-Regular.e6300f10fda8613601f6.woff2",
     "index.html": "/zudiloff3/index.html",
-    "main.9b286d4e.css.map": "/zudiloff3/static/css/main.9b286d4e.css.map",
-    "main.3063ecf9.js.map": "/zudiloff3/static/js/main.3063ecf9.js.map"
+    "main.dd89af85.css.map": "/zudiloff3/static/css/main.dd89af85.css.map",
+    "main.b2580b8a.js.map": "/zudiloff3/static/js/main.b2580b8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b286d4e.css",
-    "static/js/main.3063ecf9.js"
+    "static/css/main.dd89af85.css",
+    "static/js/main.b2580b8a.js"
   ]
 }
